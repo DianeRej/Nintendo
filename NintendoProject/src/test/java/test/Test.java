@@ -1,10 +1,20 @@
 package test;
 
+import model.Console;
+import model.Jeu;
+
 public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		Console c1 = new Console("Switch");
+		Jeu j1 = new Jeu("Zelda : Breath of the wild", c1);
+		Jeu j2 = new Jeu("Zelda : Tears of the kingdom", c1);
+		Jeu j3 = new Jeu("Mario Kart 8 Deluxe", c1);
+		Jeu j4 = new Jeu("Pokémon : Let's Go, Pikachu", c1);
+		Jeu j5 = new Jeu("Pokémon Epée", c1);
 	}
+	
 
 }
