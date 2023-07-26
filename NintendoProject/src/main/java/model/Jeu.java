@@ -1,6 +1,4 @@
-package metier;
-
-import java.util.List;
+package model;
 
 public class Jeu {
 
