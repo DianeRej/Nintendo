@@ -9,8 +9,8 @@ import model.Achat;
 import model.Adresse;
 import model.Boutique;
 import model.Client;
-import model.Console;
 import model.Jeu;
+import model.Portable;
 
 public class Test {
 
@@ -22,7 +22,7 @@ public class Test {
 		Client cli1 = new Client("Even","Manon");
 		Client cli2 = new Client("Reja","Diane");
 		
-		Console c1 = new Console("Switch", 120.0 , LocalDate.parse("2017-03-03"));
+		Portable c1 = new Portable("Switch", 120.0 , LocalDate.parse("2017-03-03"));
 		Jeu j1 = new Jeu("Zelda : Breath of the wild", c1, b1);
 		Jeu j2 = new Jeu("Zelda : Tears of the kingdom", c1, b1);
 		Jeu j3 = new Jeu("Mario Kart 8 Deluxe", c1, b1);
